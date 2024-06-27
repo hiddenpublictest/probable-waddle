@@ -1,0 +1,8 @@
+name: Required Status Check - One
+
+on:
+  pull_request:
+
+jobs:
+  one:
+    uses: hiddenpublictest/shiny-umbrella/.github/workflows/one.yaml@main
