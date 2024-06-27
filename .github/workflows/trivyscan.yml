@@ -1,0 +1,8 @@
+name: Trivyscan
+
+on:
+  pull_request:
+
+jobs:
+  two:
+    uses: hiddenpublictest/shiny-umbrella/.github/workflows/trivyscan.yml@main
