@@ -4,5 +4,5 @@ on:
   pull_request:
 
 jobs:
-  two:
+  trivyscan:
     uses: hiddenpublictest/shiny-umbrella/.github/workflows/trivyscan.yml@main
