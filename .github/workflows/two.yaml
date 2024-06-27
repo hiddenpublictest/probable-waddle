@@ -1,0 +1,8 @@
+name: Not Required Status Check - Two
+
+on:
+  pull_request:
+
+jobs:
+  two:
+    uses: hiddenpublictest/shiny-umbrella/.github/workflows/two.yaml@main
